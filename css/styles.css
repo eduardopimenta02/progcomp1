@@ -1,7 +1,7 @@
 body {
     /* fonte do texto */
     font-family: Arial, sans-serif;
-    background-color:darkslategrey;
+    background-color:rgb(69, 70, 70);
     /* usa modelo FlexBox, conceito de caixa para posicionamento */
     display: flex;
     justify-content: center; /* centraliza na horizontal */
@@ -10,7 +10,7 @@ body {
 
 }
 .container {
-    background-color:darkgrey;
+    background-color:rgb(179, 179, 179);
     padding: 20px; /* espaçamento interno */
     border-radius: 10px; /* borda */
     text-align: center; /* texto centralizado */
