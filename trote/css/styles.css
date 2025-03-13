@@ -36,3 +36,24 @@ nav a{
     border-radius: 5px; /* borda com canto arredondado*/
 
 }
+nav a:hover {
+    background: blue;
+}
+img{
+    width: 120px;
+    height: auto;
+    margin-right: 20px; /* espaçamento externo de 20px*/
+    border-radius: 10px; /* borda arredondada*/
+
+}
+.container {
+    width: 80%;
+    margin: 20px auto; /* 20px em cima e em baixo e automatica esquerda e direita*/
+    background: white;
+    padding: 20px; /* espaçamento interno nos 4 lados*/
+    border-radius: 10%;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
