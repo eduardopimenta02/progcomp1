@@ -2,7 +2,7 @@ body {
     font-family: arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    background-color: wheat;
     text-align:center;
 }
 header {
@@ -57,6 +57,30 @@ img{
 h2{
     text-align: center;
 }
-td{
-    padding: 10px 15px;     
+table tr td{
+    padding: 30px 20px;     
+}
+table{
+    /* espaçamento externo de 0 acima e abaixo e automatico esquerda e direita*/
+    margin: 0 auto;
+}
+.laranja{
+    background-color: orangered;
+}
+.preta{
+    background-color: black;
+    color: white;
+}
+.roxa{
+    background-color: purple;
+}
+.verde{
+    background-color: green;
+}
+.vermelha{
+    background-color: red 
+}
+.azul{
+    background-color: blue;
+    color: white;
 }
