@@ -29,16 +29,44 @@
             <h2> Calculadoras De Pontuação </h2>
             <form> <!-- formulario para entrada de dados do usuario-->
                 <div class="campos">
-                    <label> Ação Social </label>
+                    <label> Ação Social (pts)</label>
                     <input type= "number" id="acaoSocial"/>
                 </div>
                 <div class="campos">
-                    <label> Homenagem</label>
+                    <label> Homenagem (pts)</label>
                     <input type="number" id="homenagem"/>
+                </div>
+                <div class ="campos"> 
+                    <label> Caixas De Leite (litros)</label>
+                    <input type="number" id="leite"/>
+                </div>
+                <div class = "campos">
+                    <label> Kit Alimentação (avulso)</label>
+                    <input type="number" id = "kitAvulso">
+                </div>
+                <div class = "campos">
+                    <label> Lata De Suplemento(avulso)</label>
+                    <input type="number" id = "suplementoAvulso">
+                </div>
+                <div class = "campos"> 
+                    <label> Pacote De Arroz (5kg)</label>
+                    <input type="number" id = "arroz5kg">
+                </div>
+                <div class = "campos">
+                    <label> Pacote De Arroz (1kg) </label>
+                    <input type="number" id = "arroz1kg">
+                </div>
+                <div class = "campos">
+                    <label> Pacote De Feijão (2kg)</label>
+                    <input type="number" id = "feijao2kg">
+                </div>
+                <div class = "campos">
+                    <label> Pacote de Feijão (1kg)</label>
+                    <input type="number" id = "feijao1kg">
                 </div>
                 <div class="campos">
                     <button type="button" onclick="calcular()"> Calcular</button>
-                    <label id=" resposta">  </label>
+                    <label id="soma">  </label>
                 </div>
             </form>
             <p>  </p>
